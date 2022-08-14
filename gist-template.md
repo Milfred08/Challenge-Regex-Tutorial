@@ -104,7 +104,7 @@ In our example  ```/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/```, we have
 
 ### Greedy and Lazy Match
 
-Is a way to tell the regex expression how many characters you want to match. In our case we do not have a lazy method since we actually want the whole string. 
+It is a way to tell the regex expression how many characters you want to match. In our case we do not have a lazy method since we actually want the whole string. 
 
 ```/^([a-z0-9_\.-]+)``` --> We will match one character token or group.
 
